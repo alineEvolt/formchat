@@ -1,0 +1,17 @@
+/*			START MIXINS
+---------------------------------*/
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
+
+@mixin box-shadow($shadow) {
+  box-shadow: $shadow;
+}
+
+@mixin transform($transform) {
+	 transform: $transform;
+}
+
+/*			END MIXINS
+---------------------------------*/

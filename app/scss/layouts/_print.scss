@@ -1,0 +1,98 @@
+/*			START PRINT
+---------------------------------*/
+
+@media print {
+  body {
+    background: $body-bg;
+  }
+
+  #chat_form {
+
+    margin: 0;
+    padding: 0;
+
+    .chat_list_item {
+      position: relative;
+      padding-left: 40px;
+    }
+
+    .avatar {
+      position: absolute;
+      height: 30px;
+      z-index: 99;
+      width: 30px;
+      top: 23px;
+      left: 0;
+    }
+
+    .chat_list_item {
+    	.chat_bubble {
+
+    		@include box-shadow(0px 1px 2px $gray-light);
+        color: $color-prim;
+        background: $white;
+        display: inline-block;
+        line-height: 1.5;
+        @include border-radius(20px);
+        margin: 0 0 1em 0;
+        text-align: left;
+        position: relative;
+        padding: 15px 20px;
+        font-size: 100%;
+        max-width: 65%;
+        min-width: 44px;
+        min-height: 12px;
+
+    		&.chat_bubble_reponse {
+	    		@include box-shadow(0px 1px 2px $gray-light);
+	        color: $color-prim;
+	        background: $white;
+	        display: inline-block;
+	        line-height: 1.5;
+	        @include border-radius(20px);
+	        margin: 0 0 1em 0;
+	        text-align: left;
+	        position: relative;
+	        padding: 15px 20px;
+	        font-size: 100%;
+	        max-width: 65%;
+	        min-width: 44px;
+	        min-height: 12px;
+	      }
+
+	      &:not(.chat_bubble_reponse) > span {
+		      background: $white;
+		      display: block;
+		    }
+
+      }
+
+      &:not(.chat_list_item_new) .chat_bubble:not(.chat_bubble_reponse) {
+	      position: relative;
+	      top: 0;
+	      left: 0;
+	    }
+
+	    &.chat_list_item_new {
+	    	.chat_bubble {
+	    		@include border-radius(0 20px 20px 20px);
+	    		position: relative;
+      		top: 0;
+      		left: 0;
+    		}
+
+    	}
+
+    	&.chat_list_item_reponse {
+        display: block;
+    	}
+
+    }
+
+  }
+
+}
+
+
+/*			END PRINT
+---------------------------------*/

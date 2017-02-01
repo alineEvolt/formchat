@@ -1,0 +1,48 @@
+//
+
+$body-bg: 						#f5f5f5;
+$white:								#fff;
+$white-darker:				#FCF8F8;
+$gray-light:					#e9dede;
+
+
+//couleurs texte
+$color-base: 					#363636;
+$color-prim: 					#4F4F4F;
+$color-sec:						#4B6AFF;
+$color-sec-light: 		#EAF2F7;
+
+//bulles de dialogue (questions/reponses)
+$bulle-quest-bg:			$white;
+$bulle-resp-bg:				#333A47;
+
+$error-color:					#FF576E;
+$ok-color:						#52D7CF;
+
+//Buttons
+$color-base-button:		$color-sec;
+
+
+//Fonts
+$font-light: 					'montserratlight', arial, helvetica, sans-serif;
+$font-extralight: 		'montserratextralight', arial, helvetica, sans-serif;
+$font-medium: 				'montserratmedium', arial, helvetica, sans-serif;
+$font-regular: 				'montserratregular', arial, helvetica, sans-serif;
+$font-bold: 					'montserratsemibold', arial, helvetica, sans-serif;
+$font-thin: 					'montserratthin', arial, helvetica, sans-serif;
+
+
+//font size
+$size-default:				16px;
+$size-h1:							floor(($size-default * 1.25));
+$size-h2:							floor(($size-default * 1.25));
+
+
+
+//interligne
+$line-height-default:	20px;
+
+
+//margin
+$margin-default:			20px;
+

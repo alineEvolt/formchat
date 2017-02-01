@@ -1,0 +1,29 @@
+{
+  "name": "formchat",
+  "description": "-",
+  "main": "index.js",
+  "authors": [
+    "Evolt"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery-ui": "jqueryui#^1.12.1",
+    "swiper": "idangerous-swiper#^3.4.1",
+    "normalize-css": "normalize.css#^5.0.0",
+    "KNACSS": "knacss#^6.0.5",
+    "jquery.actual": "^1.0.19",
+    "jquery-smooth-scroll": "^2.1.2",
+    "matchMedia": "matchmedia#^0.3.0",
+    "modernizr": "^3.3.1",
+    "pump": "^0.4.4"
+  },
+  "dependencies": {}
+}

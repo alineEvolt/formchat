@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="170px" height="188px" viewBox="0 0 170 188" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M85,170.237504 C103.108991,170.237504 119.895321,164.566609 133.684686,154.90146 C155.641695,139.511501 170,113.99425 170,85.1187522 C170,38.1089634 131.944204,0 85,0 C38.0557963,0 0,38.1089634 0,85.1187522 C0,132.128541 38.0557963,170.237504 85,170.237504 Z" id="path-1"></path>
+        <rect id="path-3" x="0" y="0" width="3.90804598" height="13.6972705"></rect>
+        <linearGradient x1="50.6716087%" y1="-26.560377%" x2="50%" y2="81.0366423%" id="linearGradient-5">
+            <stop stop-color="#F8FAFB" offset="0%"></stop>
+            <stop stop-color="#EDF2F5" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-6" x="0" y="0" width="108.389163" height="90.50514" rx="40"></rect>
+        <linearGradient x1="42.2541921%" y1="-30.8624268%" x2="53.4516767%" y2="46.6080264%" id="linearGradient-8">
+            <stop stop-color="#DFEAF2" offset="0%"></stop>
+            <stop stop-color="#ECF4F8" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy" transform="translate(-558.000000, -336.000000)">
+            <g id="Group" transform="translate(558.000000, 338.000000)">
+                <g id="Rectangle-2-+-Rectangle-2-Mask" transform="translate(0.000000, 15.740518)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#E5EBEF" xlink:href="#path-1"></use>
+                    <rect id="Rectangle-2" fill="#EEF2F5" mask="url(#mask-2)" x="44.9425287" y="140.886211" width="80.1149425" height="37.1783056" rx="18.5891528"></rect>
+                    <path d="M44.9425287,159.475363 C44.9425287,149.208858 53.2620673,140.886211 63.5359543,140.886211 L100.601977,140.886211 C110.870842,140.886211 119.195402,149.2066 119.195402,159.475363 L119.195402,159.475363 C119.195402,169.741869 110.873721,178.064516 100.606154,178.064516 L99.5419023,178.064516 C89.2753437,178.064516 72.6233519,178.064516 62.3674392,178.064516 L63.5277431,178.064516 C53.2634127,178.064516 44.9425287,169.744126 44.9425287,159.475363 L44.9425287,159.475363 Z" id="Rectangle-2" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                </g>
+                <rect id="Rectangle-5" fill="#EDF2F5" x="72.2988506" y="146.842963" width="27.3563218" height="9.78376462"></rect>
+                <rect id="Rectangle-5" fill="#D6DDE1" x="72.2988506" y="146.842963" width="27.3563218" height="3.91350585"></rect>
+                <g id="Mask" transform="translate(71.740558, 31.394541)">
+                    <g id="Oval-3" transform="translate(12.282430, 9.783765)">
+                        <mask id="mask-4" fill="white">
+                            <use xlink:href="#path-3"></use>
+                        </mask>
+                        <use id="Mask" fill="#F5F7F9" xlink:href="#path-3"></use>
+                        <ellipse fill="#D5DCE1" mask="url(#mask-4)" cx="1.95402299" cy="-3.42431762" rx="5.86206897" ry="6.359447"></ellipse>
+                    </g>
+                    <ellipse id="Oval-3" fill="#FFFFFF" cx="14.2364532" cy="5.87025877" rx="5.86206897" ry="5.87025877"></ellipse>
+                    <rect id="Rectangle-3" fill="#F5F7F9" x="0.558292282" y="21.5242822" width="27.3563218" height="7.8270117" rx="3.91350585"></rect>
+                    <rect id="Rectangle-3" fill="#FFFFFF" x="0.558292282" y="21.5242822" width="13.6781609" height="7.8270117" rx="3.91350585"></rect>
+                </g>
+                <g id="Group-2" transform="translate(31.264368, 56.832329)">
+                    <mask id="mask-7" fill="white">
+                        <use xlink:href="#path-6"></use>
+                    </mask>
+                    <use id="Mask" fill="url(#linearGradient-5)" xlink:href="#path-6"></use>
+                    <rect id="Mask" fill="#FFFFFF" mask="url(#mask-7)" x="-8.89594676" y="0" width="106.746089" height="90.50514" rx="40"></rect>
+                </g>
+                <rect id="Rectangle" fill="url(#linearGradient-8)" x="44.9425287" y="80.3133641" width="80.1149425" height="31.3080468" rx="15.6540234"></rect>
+                <rect id="Rectangle-4" fill="#FFFFFF" x="25.4022989" y="90.0971287" width="11.7241379" height="23.4810351" rx="5.86206897"></rect>
+                <rect id="Rectangle-4" fill="#EFF3F6" x="132.873563" y="90.0971287" width="11.7241379" height="23.4810351" rx="5.86206897"></rect>
+                <circle id="Oval-2" fill="#5F5890" cx="86" cy="125" r="7"></circle>
+                <polyline id="Path-4" stroke="#FA2958" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" points="96 0 85 11.4423913 96 11.4423913 85 22"></polyline>
+                <ellipse id="Oval-4" fill="#F92958" cx="93.5" cy="22.5020956" rx="1.5" ry="1.50209563"></ellipse>
+                <ellipse id="Oval-4" fill="#F92958" cx="87.5" cy="27.5006985" rx="0.5" ry="0.500698542"></ellipse>
+                <g id="Group-3" transform="translate(105.485281, 96.485281) rotate(-315.000000) translate(-105.485281, -96.485281) translate(99.485281, 90.485281)" stroke="#5F5890" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M6.5,0.5 L6.5,11.545361" id="Line"></path>
+                    <path d="M12,6 L0.954638983,6" id="Line"></path>
+                </g>
+                <g id="Group-3" transform="translate(64.485281, 96.485281) rotate(-315.000000) translate(-64.485281, -96.485281) translate(58.485281, 90.485281)" stroke="#5F5890" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M6.5,0.5 L6.5,11.545361" id="Line"></path>
+                    <path d="M12,6 L0.954638983,6" id="Line"></path>
+                </g>
+                <ellipse id="Oval-4" fill="#F92958" cx="83" cy="5.00139708" rx="1" ry="1.00139708"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

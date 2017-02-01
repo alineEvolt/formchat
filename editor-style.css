@@ -1,0 +1,98 @@
+
+@font-face {
+    font-family: 'montserratextralight';
+    src: url('dist/fonts/montserrat-extralight-webfont.woff2') format('woff2'),
+         url('dist/fonts/montserrat-extralight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratlight';
+    src: url('dist/fonts/montserrat-light-webfont.woff2') format('woff2'),
+         url('dist/fonts/montserrat-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('dist/fonts/montserrat-medium-webfont.woff2') format('woff2'),
+         url('dist/fonts/montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('dist/fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('dist/fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratsemibold';
+    src: url('dist/fonts/montserrat-semibold-webfont.woff2') format('woff2'),
+         url('dist/fonts/montserrat-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratthin';
+    src: url('montserrat-thin-webfont.woff2') format('woff2'),
+         url('montserrat-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body#tinymce.wp-editor { 
+  font-family: 'montserratlight', Helvetica, sans-serif;
+  min-height: 800px;
+  background: #f5f5f5;
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+p {
+  position: relative;
+  padding-left: 40px;
+}
+
+
+p.question {
+  clear: both;
+  display: block;
+  box-shadow: 0px 1px 2px #E9DEDE;
+  color: #4F4F4F;
+  background: #fff;
+  line-height: 1.5;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  margin: 0 0 1em 0;
+  text-align: left;
+  position: relative;
+  padding: 15px 20px;
+  font-size: 100%;
+  max-width: 65%;
+  min-width: 44px;
+  min-height: 12px;
+}
+
+p.reponse {
+  clear: both;
+  display: block;
+  background: #333A47;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  color: #fff;
+  float: right;
+  margin-bottom: 11px;
+  padding: 7px 15px 9px; 
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px; 
+}

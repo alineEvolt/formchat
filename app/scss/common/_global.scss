@@ -1,0 +1,234 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+/*          START GLOBAL
+---------------------------------*/
+
+html {
+    color: $color-base;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #333A47;
+    text-shadow: none;
+    color: $white;
+}
+
+::selection {
+    background: #333A47;
+    text-shadow: none;
+    color: $white;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+p {
+    margin: 0 0 20px;
+}
+
+a { text-decoration: none; }
+
+
+/*      @general
+--------------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+html, body { 
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+body {
+    background: $body-bg;
+    color: $color-base;
+    font-family: $font-light;
+    font-size: $size-default;
+    font-weight: 400;
+    line-height: $line-height-default;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+  color: $color-base;
+  font-size: $size-h1;
+  text-align: center;
+  margin-bottom: $margin-default;
+}
+
+@media only screen 
+and (max-width: 640px) {
+
+    h1 {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+}
+
+/*    cookie notice
+--------------------------------------------*/
+
+.cookie-notice-container {
+  @include box-shadow(0px 1px 2px $gray-light);
+  padding: 5px 0;
+}
+
+#cookie-notice {
+
+  .cn-notice-text {
+    font-family: $font-light;
+    font-size: 100%;
+  }
+
+  .button {
+    color: $white;
+    background: $color-sec;
+    @include border-radius(100px);
+    line-height: $line-height-default;
+    padding: 2px 8px 1px;
+  }
+
+}
+
+
+/*      @STRUCTURE
+--------------------------------------- */
+
+#page {
+    background: $body-bg;    
+    min-height: 1%;    
+    height: 100%;
+    height: 100vh;
+    width: 100vw;
+    width: 100%; 
+    overflow: auto;
+
+    .wrapper {
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      min-height: 1%;    
+      height: 100%;
+      height: 100vh;
+      max-width: 800px;
+      width: 100%;
+    }
+   
+}
+
+.home #page .wrapper {
+    max-width: 600px;
+}
+
+@media only screen
+and (max-width: 800px) {
+    #page .wrapper {
+        max-width: 90%;
+    }
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+
+  &.focusable:active, &.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+  }
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/*    @page 404
+---------------------------------------------*/
+
+
+
+.error404 {
+
+  .page-content { 
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 16px
+  }
+}
+
+/*          END GLOBAL
+---------------------------------*/

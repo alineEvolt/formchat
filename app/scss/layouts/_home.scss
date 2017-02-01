@@ -1,0 +1,107 @@
+/*			START HOME
+---------------------------------*/
+
+body:not(.single-chat) {
+
+	#page {
+
+		#main {
+
+	    height: auto;
+	    margin: auto;
+	    text-align: center;
+	    width: 100%;
+
+    }
+
+  }
+}
+
+
+.avatar, .avatar_bot {
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    height: auto;
+    width: 130px;
+    margin-bottom: 30px;
+}
+
+.avatar {
+  margin-bottom: 20px;
+}
+
+
+@media only screen
+and (max-width: 640px) {
+    body:not(.single-chat) #page #main {
+        margin-top: 63px;
+    }
+
+    .avatar, .avatar_bot {
+        margin-bottom: 10px;
+    } 
+}
+
+.home {
+
+	.intro {
+
+		.content {			
+	    opacity: 0; 
+	    @include transform(translate3d(0, 40px, 0));
+	    transition: transform cubic-bezier(0,.32,0,1.2) 1s, opacity 1s ease-in-out;
+    }
+
+    .btn {
+    	@include transform(translate3d(0, 150px, 0));
+    	transition: transform cubic-bezier(0,.32,0,1.2) 1s, opacity 1s ease-in-out; 
+    	opacity: 0;
+    }
+
+  }
+
+  .loadPage {
+
+  	.intro {
+
+  		.content, .btn {
+  			opacity: 1;
+  			@include transform(translate3d(0, 0, 0));
+  		}
+
+  	}
+
+  }
+	    
+}
+
+
+.intro {
+	
+	p {
+    font-size: 100%;
+    line-height: 1.5;
+
+    &.btn {
+	  	font-size: 100%;
+	    line-height: 1;
+	    margin: 30px 10px 0;
+	  }
+
+  }  
+
+}
+
+@media only screen
+and (max-width: 640px) {
+
+  .intro p.btn {
+      margin: 10px 10px 0;
+  }
+
+}
+
+
+/*			END HOME
+---------------------------------*/

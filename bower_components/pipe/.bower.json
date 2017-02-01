@@ -1,0 +1,27 @@
+{
+  "name": "pipe",
+  "main": "built/pipe.js",
+  "version": "0.6.4",
+  "description": "Some module...",
+  "dependencies": {
+    "subject": "~0.5.8",
+    "lodash": "~2.4.1"
+  },
+  "devDependencies": {
+    "requirejs": "*",
+    "requirejs-text": "*",
+    "underscore": "*",
+    "jquery": "*",
+    "qunit": "*"
+  },
+  "homepage": "https://github.com/simonfan/pipe",
+  "_release": "0.6.4",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.6.4",
+    "commit": "88df08639c7237379bac1b362948bd806ce8b6b8"
+  },
+  "_source": "https://github.com/simonfan/pipe.git",
+  "_target": "0.6.4",
+  "_originalSource": "pipe"
+}
