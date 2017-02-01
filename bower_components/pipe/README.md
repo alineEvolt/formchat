@@ -1,3 +1,0 @@
-# pipe[![Build Status](https://secure.travis-ci.org/simonfan/pipe.png?branch=master)](http://travis-ci.org/simonfan/pipe)
-
-Some module...
