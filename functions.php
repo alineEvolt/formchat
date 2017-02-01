@@ -97,6 +97,15 @@ function formchat_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'formchat_scripts' );
 
+function admin_css() {
+
+$admin_handle = 'admin_styles_css';
+$admin_stylesheet = get_template_directory_uri() . '/admin-styles.css';
+
+wp_enqueue_style( $admin_handle, $admin_stylesheet );
+}
+add_action('admin_print_styles', 'admin_css', 11 );
+
 
 require get_template_directory() . '/inc/extras.php';
 

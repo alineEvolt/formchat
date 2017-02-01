@@ -1,0 +1,64 @@
+/*    START ADMIN STYLES
+-----------------------------------------*/
+
+/*    @Advanced custom fields
+------------------------------------*/
+
+.acf-flexible-content .values > .layout[data-layout='bulles_scen_next'],
+.acf-flexible-content .values > .layout[data-layout='bulles_scen_next'] table th,
+.acf-flexible-content .values > .layout[data-layout='bulles_scen_next'] table td {
+  background: #EAF2F7 !important;
+}
+
+.acf-flexible-content .values > .layout[data-layout='btn_choice'] table tr th,
+.acf-flexible-content .values > .layout[data-layout='btn_choice'] table tr.acf-row:nth-child(odd) td {
+  background: #FAF1F2 !important;
+}
+.acf-flexible-content .values > .layout[data-layout='btn_choice'] table tr.acf-row:nth-child(even) td {
+  background: #F9F9F9 !important;
+}
+
+.acf-flexible-content .values > .layout[data-layout='btns_choice_next_next'] table tr th,
+.acf-flexible-content .values > .layout[data-layout='btns_choice_next_next'] table tr.acf-row:nth-child(odd) td {
+  background: #E5EDFB !important;
+}
+
+.acf-flexible-content .values > .layout table tr.acf-row td .acf-field-flexible-content {
+  background: #B6F7F4 !important;
+
+}
+.acf-flexible-content .values > .layout table tr.acf-row td .layout[data-layout='btns_choice_next_next'] {
+  background: #E5EDFB !important;
+
+}
+
+.acf-flexible-content .values > .layout[data-layout='btn_incr'],
+.acf-flexible-content .values > .layout[data-layout='btn_incr'] table th,
+.acf-flexible-content .values > .layout[data-layout='btn_incr'] table td,
+.acf-flexible-content .values > .layout[data-layout='btns_incr_next_next'],
+.acf-flexible-content .values > .layout[data-layout='btns_incr_next_next'] table tr th,
+.acf-flexible-content .values > .layout[data-layout='btns_incr_next_next'] table tr.acf-row td,
+.acf-flexible-content .values > .layout[data-layout='btns_incr_next_next'] table tr.acf-row:nth-child(odd) td {
+  background: #E0F8F6 !important;
+}
+
+.acf-flexible-content .values > .layout[data-layout='btn_choice'] {
+  background: #F4F4F4 !important;
+}
+
+
+
+.acf-flexible-content .values > .layout[data-layout='bulles_de_dialogue_next_next'],
+.acf-flexible-content .values > .layout[data-layout='bulles_de_dialogue_next_next'] table tr th,
+.acf-flexible-content .values > .layout[data-layout='bulles_de_dialogue_next_next'] table tr.acf-row:nth-child(odd) td {
+  background: #FBFCEB !important;
+}
+
+.acf-flexible-content .values > .layout[data-layout='bulles_de_dialogue_next_next'] table tr.acf-row:nth-child(even) td {
+  background: #F4F1EF !important;
+}
+
+
+
+/*    END ADMIN STYLES
+-----------------------------------------*/
